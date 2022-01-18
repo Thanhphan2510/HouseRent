@@ -77,6 +77,7 @@ public class TestOkhttp extends AppCompatActivity {
                         Log.e("thanhpt", "run: "+myResponse );
                        List<Account> result = (List<Account>)(Object) MyUtils.fromJSon(myResponse);
                        tvTestOkhttp.setText(result.toString());
+                        System.out.println("");
 
                     }
                 });
